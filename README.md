@@ -1,4 +1,4 @@
-# ImageToPoins
+# ImageToPoints
 Tkinter Application for transform image into braille art.
 
 You can choose the chars numbers, turn into negative and set limit for pixel detection.
