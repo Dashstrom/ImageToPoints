@@ -168,7 +168,7 @@ class App(Tk):
 
     def load(self) -> None:
         """Ask path of image and load it."""
-        path = filedialog.askopenfilename(title="Ouvrir une image",
+        path = filedialog.askopenfilename(title="Open an image",
                                           filetypes=[('All Files', '.*')])
         if path:
             try:
@@ -176,7 +176,7 @@ class App(Tk):
                 self.update()
             except Exception as err:
                 print_exc()
-                messagebox.showerror("Une erreur est survenue", str(err))
+                messagebox.showerror("An error has occurred", str(err))
 
 
 if __name__ == "__main__":
